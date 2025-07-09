@@ -23,7 +23,6 @@ class Linear_Regression():
         for i in range(self.no_of_iterations):
             self.update_weights()
 
-
     def update_weights(self):
         Y_prediction = self.predict(self.X)
 
